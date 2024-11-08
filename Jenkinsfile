@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_CREDENTIALS_ID = 'b3bd7a36-6578-4c5c-b068-9c787219612' // Replace with your Jenkins credentials ID
+        DOCKER_CREDENTIALS_ID = 'b3bd7a36-6578-4c5c-b068-9c7872196120' // Replace with your Jenkins credentials ID
         IMAGE_NAME = 'sumeet382/myapp04' // Replace with your Docker Hub image name
     }
 
