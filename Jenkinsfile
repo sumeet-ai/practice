@@ -3,13 +3,13 @@ pipeline {
 
     environment {
         DOCKER_CREDENTIALS_ID = 'b3bd7a36-6578-4c5c-b068-9c787219612' // Replace with your Jenkins credentials ID
-        IMAGE_NAME = 'yourdockerhubusername/yourimagename' // Replace with your Docker Hub image name
+        IMAGE_NAME = 'sumeet382/myapp04' // Replace with your Docker Hub image name
     }
 
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/yourusername/your-repo.git' // Replace with your GitHub URL
+                git branch: 'main', url: 'https://github.com/sumeet-ai/practice.git' // Replace with your GitHub URL
             }
         }
 
